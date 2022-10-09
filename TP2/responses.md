@@ -21,14 +21,17 @@ Plus le nombre de vaisseaux augmente, plus le nombre d'items livrés augmente ra
 
 Courbe 1 :
 ![n_vaisseaux = 3](p1_3_navettes.png)
+
 Paramètres : n_vaisseaux = 3 / n_planètes = 10
 
 Courbe 2 :
 ![n_vaisseaux = 3](p1_10_navettes.png)
+
 Paramètres : n_vaisseaux = 10 / n_planètes = 10
 
 Courbe 3 :
 ![n_vaisseaux = 3](p1_20_navettes.png)
+
 Paramètres : n_vaisseaux = 20 / n_planètes = 10
 
 
@@ -38,18 +41,22 @@ Plus le nombre de planètes augmente, plus le nombre d'items dans le système au
 
 Courbe 4 :
 ![n_planetes = 3](p1_3_planetes.png)
+
 Paramètres : n_vaisseaux = 10 / n_planètes = 3
 
 Courbe 5 :
 ![n_planetes = 10](p1_10_planetes.png)
+
 Paramètres : n_vaisseaux = 10 / n_planètes = 10
 
 Courbe 6 :
 ![n_planetes = 20](p1_20_planetes.png)
+
 Paramètres : n_vaisseaux = 10 / n_planètes = 20
 
 Courbe 7 :
 ![n_planetes = 30](p1_30_planetes.png)
+
 Paramètres : n_vaisseaux = 10 / n_planètes = 30
 
 
@@ -77,6 +84,7 @@ On remarque que, pour un paramétrage similaire, les délais de livraison sont g
 
 Courbe 8 :
 ![n_vaisseaux = 15](p2.png)
+
 Paramètres : n_vaisseaux = 15 / n_planètes = 20
 
 
@@ -86,8 +94,10 @@ Le facteur ROAD_BRANCHING_FACTOR permet de gérer la probabilité qu'une route s
 
 Courbe 8 :
 ![road_branching_factor = 0.1](few_connections_graph.png)
+
 Paramètres : n_vaisseaux = 10 / n_planètes = 30 / road_branching_factor = 0.1
 
 Courbe 9 :
 ![road_branching_factor = 0.9](many_connections_graph.png)
+
 Paramètres : n_vaisseaux = 10 / n_planètes = 30 / road_branching_factor = 0.9
