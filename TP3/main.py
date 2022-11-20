@@ -250,8 +250,8 @@ class Robot(Agent):  # La classe des agents
         self.detect_quicksand()
         if temp_quicksand == True and self.isInQuicksand == False:
             self.speed *= 2
-            #self.model.markers.append(Marker(self.x, self.y, MarkerPurpose.DANGER, direction=None))
-            #self.counter = int(self.speed / 2)
+            self.model.markers.append(Marker(self.x, self.y, MarkerPurpose.DANGER, direction=None))
+            self.counter = int(self.speed / 2)
         
         #### mise à jour du compteur ####
         if self.counter > 0 :
